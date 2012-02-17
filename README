@@ -1,0 +1,9 @@
+benchmark.py - the benchmark lib used
+gen_data.rb - run this to generate the tsv file in input
+input - where the input tsv files will go
+output - where the benchmark data will go
+pics - where the benchmark plots will go
+plot_benchmarks.py - run this to plot the benchmark
+progs - where the programs that are being tested will go
+README - this file
+run_benchmarks.py - run this to create the benchmarks in output/
