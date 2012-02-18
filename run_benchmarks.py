@@ -7,7 +7,6 @@ benchmark("./output/ruby187.benchmark", ("/usr/bin/ruby1.8", "progs/read_file.rb
 benchmark("./output/ruby193.benchmark", ("/usr/bin/ruby1.9.1", "progs/read_file.rb", "input/mydata.csv"), margin, delay)
 benchmark("./output/perl5124.benchmark", ("/usr/bin/perl", "progs/read_file.pl", "input/mydata.csv"), margin, delay)
 benchmark("./output/perl5124_stevan.benchmark", ("/usr/bin/perl", "progs/read_file_stevan.pl", "input/mydata.csv"), margin, delay)
-benchmark("./output/perl5124_stevan_map.benchmark", ("/usr/bin/perl", "progs/read_file_stevan_map.pl", "input/mydata.csv"), margin, delay)
 benchmark("./output/python272.benchmark", ("/usr/bin/python", "progs/read_file.py", "input/mydata.csv"), margin, delay)
 benchmark("./output/python272.benchmark", ("/usr/bin/python", "progs/read_file.py", "input/mydata.csv"), margin, delay)
 benchmark("./output/pypy_tuple.benchmark", ("/opt/pypy/bin/pypy", "progs/read_file_tuple.py", "input/mydata.csv"), margin, delay)
