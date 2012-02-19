@@ -11,6 +11,8 @@ benchmark("./output/python272_tuple.benchmark", ("/usr/bin/python", "progs/read_
 benchmark("./output/python322.benchmark", ("/usr/bin/python3", "progs/read_file3.py", "input/mydata.csv"), margin, delay)
 benchmark("./output/python272_csv.benchmark", ("/usr/bin/python", "progs/read_file_csv_tomasz.py", "input/mydata.csv"), margin,delay)
 benchmark("./output/java7b147.benchmark", ("/usr/bin/java", "-Xmx3000m", "progs/ReadFileArrayList", "input/mydata.csv"), margin, delay)
+benchmark("./output/c.benchmark", ("progs/read_file.c.sh", "input/mydata.csv"), margin, delay)
+benchmark("./output/cprecompiled.benchmark", ("progs/read_file", "input/mydata.csv"), margin, delay)
 
 #benchmark("./output/mawk.benchmark", ("/usr/bin/mawk", "-f", "progs/read_file.awk", "input/mydata.csv"), margin, delay)
 #benchmark("./output/python272_numpy.benchmark", ("/usr/bin/python", "progs/read_file_numpy.py", "input/mydata.csv"), margin, delay)
